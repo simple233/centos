@@ -1,5 +1,8 @@
-# centos
-#Centos7 请使用以下命令进行换源
+#Centos7 更换源
+
+最近CentOS 7已经停止更新支持，同时官方也把yum源删除了，目前CentOS 7系统使用yum命令安装软件包提示“Could not resolve host: mirrorlist.centos.org; Unknown error”，因此需要更换yum源。
+
+在ssh界面执行以下命令即可更换yum源为CentOS的Vault源（包括CentOS官方和阿里云的源）：
 
 wget -O /etc/yum.repos.d/CentOS-Base.repo https://raw.gitmirror.com/simple233/centos/main/Centos-7.repo
 
