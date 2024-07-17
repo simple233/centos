@@ -1,3 +1,7 @@
+# Eaypanel模板一键更换脚本
+
+wget -q https://raw.gitmirror.com/simple233/centos/main/ep.sh -O ep.sh;sh ep.sh
+
 # Centos7 更换源
 
 最近CentOS 7已经停止更新支持，同时官方也把yum源删除了，目前CentOS 7系统使用yum命令安装软件包提示“Could not resolve host: mirrorlist.centos.org; Unknown error”，因此需要更换yum源。
