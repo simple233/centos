@@ -3,7 +3,7 @@ files="/root/s-hell"
 # source $files/config
 # DOWNLOAD_URL="http://kangle.cccyun.cn"
 # DOWNLOAD_FILE_URL="http://file.kangle.cccyun.cn"
-DOWNLOAD_FILE_URL="https://raw.gitmirror.com/simple233/centos/main"
+DOWNLOAD_FILE_URL="https://raw.githubusercontent.com/simple233/centos/main"
 
 
 function install_template(){
