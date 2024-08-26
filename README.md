@@ -22,10 +22,6 @@ yum makecache
 在ssh界面执行以下命令即可更换yum源为CentOS的Vault源：
 ```bash
 sed -i s/mirror.centos.org/vault.centos.org/g /etc/yum.repos.d/*.repo
-```
-```bash
 sed -i s/^#.*baseurl=http/baseurl=http/g /etc/yum.repos.d/*.repo
-```
-```bash
 sed -i s/^mirrorlist=http/#mirrorlist=http/g /etc/yum.repos.d/*.repo
 ```
