@@ -1,6 +1,6 @@
 # IPZF脚本
 ```bash
-wget https://raw.githubusercontent.com/simple233/centos/refs/heads/main/ipzf.sh &&chmod +x ipzf.sh && ./ipzf.sh
+wget https://raw.githubusercontent.com/simple233/centos/refs/heads/main/ipzf.sh && chmod +x ipzf.sh && ./ipzf.sh
 ```
 
 # Eaypanel模板一键更换脚本
