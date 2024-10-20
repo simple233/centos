@@ -1,3 +1,9 @@
+# IPZF脚本
+确保脚本具有可执行权限
+```bash
+sudo https://raw.gitmirror.com/simple233/centos/main/ipzf.sh chmod +x custom_iptables.sh & ./custom_iptables.sh
+```
+
 # Eaypanel模板一键更换脚本
 ```bash
 wget -q https://raw.gitmirror.com/simple233/centos/main/ep.sh -O ep.sh;sh ep.sh
